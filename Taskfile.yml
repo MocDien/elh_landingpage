@@ -1,0 +1,22 @@
+version: 3
+
+tasks:
+  check:
+    desc: ✅ Check all typings
+    cmds: ['pnpm run check']
+
+  lint:
+    desc: 🔍 Linting code
+    cmds: ['pnpm run lint']
+
+  format:
+    desc: 💄 Format code
+    cmds: ['pnpm run format']
+
+  dev:
+    desc: 🪲 Start development
+    cmds: ['pnpm run dev']
+
+  build:
+    desc: 📦 Build static site
+    cmds: ['pnpm run build']
